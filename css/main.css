@@ -1,0 +1,210 @@
+* {
+	-webkit-box-sizing: border-box;
+	-mox-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row-border-bottom {
+
+	border-bottom-style: solid;
+    border-bottom: thick solid green;
+
+}
+
+.row-middle {
+
+	vertical-align: text-bottom;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	p {
+		/* Remains for testing 
+			Hides the element specified
+		display: none;
+		*/
+	}
+}
+
+h1 {
+	color: #bcbbbb;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 60px;
+}
+
+h2 {
+	color: #bcbbbb;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+h3 {
+	color: #747704;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 24px;
+}
+
+h4 {
+	color: #747704;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.img-logo {
+	width: 150px;
+}
+
+.img-main {
+	max-width: 800px;
+	min-width: 250px;
+}
+
+.img-product {
+	max-width: 250px;
+	min-width: 100px;
+}
+
+p {
+	padding: 10px;
+	word-wrap: break-word;	
+	text-align: center;
+}
+
+@media screen and (min-width: 850px) {
+  main, .header__inner, .nav, .content, .grid {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 830px) {
+	h1 {
+		font-size: 24px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 24px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	h4 {
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.img-logo {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 12px;
+	}
+
+	h3 {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	h4 {
+		font-size: 8px;
+	}
+}
+
+
